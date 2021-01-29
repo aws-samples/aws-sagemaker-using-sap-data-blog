@@ -1,0 +1,60 @@
+###
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+###
+
+@AbapCatalog.sqlViewName: '<CDS View Name>'
+@AbapCatalog.compiler.compareFilter: true
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@EndUserText.label: 'CDS View for credit card transaction'
+@OData.publish: true
+
+define view <CDS View Name>
+  as select from <ABAP Table Name>
+
+{
+    key <ABAP Table Name>.recordid,
+    <ABAP Table Name>.time,
+    <ABAP Table Name>.v1,
+    <ABAP Table Name>.v2,
+    <ABAP Table Name>.v3,
+    <ABAP Table Name>.v4,
+    <ABAP Table Name>.v5,
+    <ABAP Table Name>.v6,
+    <ABAP Table Name>.v7,
+    <ABAP Table Name>.v8,
+    <ABAP Table Name>.v9,
+    <ABAP Table Name>.v10,
+    <ABAP Table Name>.v11,
+    <ABAP Table Name>.v12,
+    <ABAP Table Name>.v13,
+    <ABAP Table Name>.v14,
+    <ABAP Table Name>.v15,
+    <ABAP Table Name>.v16,
+    <ABAP Table Name>.v17,
+    <ABAP Table Name>.v18,
+    <ABAP Table Name>.v19,
+    <ABAP Table Name>.v20,
+    <ABAP Table Name>.v21,
+    <ABAP Table Name>.v22,
+    <ABAP Table Name>.v23,
+    <ABAP Table Name>.v24,
+    <ABAP Table Name>.v25,
+    <ABAP Table Name>.v26,
+    <ABAP Table Name>.v27,
+    <ABAP Table Name>.v28,
+    <ABAP Table Name>.amount,
+    <ABAP Table Name>.class
+}

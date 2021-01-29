@@ -1,0 +1,337 @@
+#Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+#Permission is hereby granted, free of charge, to any person obtaining a copy of
+#this software and associated documentation files (the "Software"), to deal in
+#the Software without restriction, including without limitation the rights to
+#use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+#the Software, and to permit persons to whom the Software is furnished to do so.
+
+#THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+#IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+#FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+#COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+#IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+#CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+# https://github.com/aws-quickstart/quickstart-sap-hana/blob/main/scripts/create-attach-single-volume.sh
+
+
+
+[
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "amount"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "class"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "recordid"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "time"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v1"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v10"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v11"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v12"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v13"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v14"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v15"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v16"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v17"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v18"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v19"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v2"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v20"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v21"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v22"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v23"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v24"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v25"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v26"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v28"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v3"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v4"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v6"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v7"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v8"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "TO_DOUBLE_COLUMN",
+      "Parameters": {
+        "columnDataType": "number",
+        "sourceColumn": "v9"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "NORMALIZATION",
+      "Parameters": {
+        "sourceColumn": "amount",
+        "strategy": "Z_SCORE",
+        "targetColumn": "amount_normalized"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "NORMALIZATION",
+      "Parameters": {
+        "sourceColumn": "time",
+        "strategy": "Z_SCORE",
+        "targetColumn": "time_normalized"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "DELETE",
+      "Parameters": {
+        "sourceColumns": "[\"amount\",\"time\",\"recordid\"]"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_END",
+      "Parameters": {
+        "sourceColumn": "class",
+        "targetIndex": "NaN"
+      }
+    }
+  }
+]

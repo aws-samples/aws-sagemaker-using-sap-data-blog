@@ -1,11 +1,19 @@
-## My Project
+# Implementing a continual learning machine learning pipeline with Amazon Sagemaker and SAP S/4HANA
 
-TODO: Fill this README out!
+This Github repository is created to provide the sample source for the AWS blog post - Implementing a continual learning machine learning pipeline with Amazon Sagemaker and SAP S/4HANA
 
-Be sure to:
+## Table of Contents
+1. [Amazon Sagemaker notebook](scripts/ml.ipynb) 
 
-* Change the title in this README
-* Edit your repository description on GitHub
+1. [Data extraction into Amazon S3 using AWS Glue - Python Shell](scripts/sap-data-extraction.py) 
+
+2. [Data import into SAP HANA using AWS Glue - Python Shell](scripts/sap-data-import.py) 
+
+3. [ABAP code for CDS View source table](scripts/sap-abap-cds-view-source-table) 
+
+4. [ABAP code for CDS View target table](scripts/sap-abap-cds-view-target-table) 
+
+5. [Glue Recipe](scripts/glue-databrew-recipe.yaml)
 
 ## Security
 
@@ -14,4 +22,3 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 ## License
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
-
