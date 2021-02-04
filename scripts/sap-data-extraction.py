@@ -194,9 +194,14 @@ def _make_http_call_to_sap(url,headers):
     return requests.get( url, headers=headers, auth=HTTPBasicAuth(sapUser,sapPassword), verify=verify)
     
 # ------------------------------------
-# Execute
+# Execute Data Extraction from SAP in parallel
 # ------------------------------------  
+from pexecute.process import ProcessLoom
+loom = ProcessLoom(max_runner_cap=9)
+
 x = 0
 while (x < totalEntities ):
-    _extract(x)
+    loom.add_function(_extract, [x], {})
     x += 5000
+
+output = loom.execute()
